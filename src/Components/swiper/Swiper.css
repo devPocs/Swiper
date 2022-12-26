@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-image: linear-gradient(to right, #9796f0, #fbc7d4);
+}
+.swiper-container {
+  position: relative;
+  top: 50px;
+}
+.swiper-container .swiper {
+  width: 80%;
+  height: 10rem;
+  position: unset;
+}
+
+.swiper-container .swiper-slide {
+  background: white;
+  border-radius: 10px;
+  padding: 2rem;
+  position: relative;
+  width: 100%;
+}
+.swiper-slide div {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  margin: auto;
+  width: 80%;
+}
+.swiper-slide div p {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.swiper-container .swiper-button-prev {
+  left: 6rem;
+}
+.swiper-container .swiper-button-next {
+  right: 6rem;
+}
+.swiper-container .swiper-button-next,
+.swiper-container .swiper-button-prev {
+  color: black;
+}
