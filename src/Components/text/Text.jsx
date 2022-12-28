@@ -1,7 +1,7 @@
 import React from "react"
 
-import "./FaceCard.css"
-const FaceCard = () => {
+import "./Text.css"
+const Text = () => {
   return (
     <div className="container">
       <h1>SWIPER JS</h1>
@@ -9,4 +9,4 @@ const FaceCard = () => {
   )
 }
 
-export default FaceCard
+export default Text

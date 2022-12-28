@@ -1,9 +1,9 @@
 import Swipe from "./Components/swiper/Swipe"
-import FaceCard from "./Components/faceCard/FaceCard"
+import Text from "./Components/text/Text"
 function App() {
   return (
     <div className="App">
-      <FaceCard />
+      <Text />
       <Swipe />
     </div>
   )
